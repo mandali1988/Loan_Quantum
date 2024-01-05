@@ -43,6 +43,10 @@ a:hover {
   line-height: 22px;
   padding: 27px 32px !important;
 }
+.header .nav-link.active {
+  color: #3A827E;
+  font-weight: 700;
+}
 .header .searchbox {
   min-width: 300px;
   padding: 10px;

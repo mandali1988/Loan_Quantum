@@ -53,6 +53,10 @@ a:hover {
         font-weight: 500;
         line-height: 22px;
         padding: 27px 32px !important;
+        &.active{
+            color: #3A827E;
+            font-weight: 700;
+        }
     }
 
     .searchbox {
