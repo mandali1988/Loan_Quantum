@@ -1,0 +1,278 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Kumbh Sans", Arial, Helvetica, sans-serif;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Kumbh Sans", Arial, Helvetica, sans-serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.maintitle {
+  color: #183533;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  position: relative;
+}
+.maintitle .titleborder {
+  background: #3A827E;
+  width: 104px;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.header .nav-link {
+  color: #6D758F;
+  text-align: center;
+  font-family: "Kumbh Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  padding: 27px 32px !important;
+}
+.header .searchbox {
+  min-width: 300px;
+  padding: 10px;
+}
+
+.banner {
+  background: #EDF7F7;
+}
+.banner .title {
+  color: #183533;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+.banner .loanBlock label {
+  color: #323232;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.banner .loanBlock input {
+  border-radius: 4px;
+  border: 1px solid #DEDEDE;
+  background: #fff;
+  padding: 13px 15px;
+  color: #5B5B5B;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.banner .loanBlock .input-group-text {
+  border-radius: 4px;
+  border: 1px solid #DEDEDE;
+  background: #E9E9E9;
+  width: 56px;
+  color: #5B5B5B;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+}
+.banner .emi_Details {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 0;
+  margin-top: 50px;
+}
+.banner .emi_Details li {
+  border-bottom: 1px solid #DEDEDE;
+  padding: 12px 20px;
+}
+.banner .emi_Details li.emi_Detailstitle {
+  text-align: center;
+  border-radius: 4px 4px 0px 0px;
+  background: rgba(202, 231, 230, 0.8);
+  border: 0;
+  height: 46px;
+  color: #183533;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  padding: inherit !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .emi_Details h3 {
+  color: #183533;
+  text-align: left;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 15px 0 8px 0;
+}
+.banner .loanchart {
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 0;
+  margin-top: 50px;
+  min-height: 344px;
+  display: flex;
+  align-items: center;
+}
+
+.test {
+  font-size: 20px;
+}
+
+.maintitle {
+  color: #183533;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  position: relative;
+}
+.maintitle .titleborder {
+  background: #3A827E;
+  width: 104px;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.range-input {
+  width: 100%;
+}
+
+input[type=range] {
+  font-size: 1.5rem;
+  width: 12.5em;
+}
+
+input[type=range] {
+  color: #ef233c;
+  --thumb-height: 1.125em;
+  --track-height: 0.125em;
+  --track-color: rgba(0, 0, 0, 0.2);
+  --brightness-hover: 180%;
+  --brightness-down: 80%;
+  --clip-edges: 0.125em;
+}
+
+input[type=range].win10-thumb {
+  color: #2b2d42;
+  --thumb-height: 1.375em;
+  --thumb-width: 0.5em;
+  --clip-edges: 0.0125em;
+}
+
+/* === range commons === */
+.range input[type=range] {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  font-size: 14px;
+  width: 100%;
+  line-height: 14px;
+  color: #479F9A;
+}
+
+.range input[type=range],
+.range input[type=range]::-webkit-slider-runnable-track,
+.range input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -webkit-transition: all ease 100ms;
+  transition: all ease 100ms;
+  height: var(--thumb-height);
+  border: 0px;
+}
+
+.range input[type=range]::-webkit-slider-runnable-track,
+.range input[type=range]::-webkit-slider-thumb {
+  position: relative;
+  background-color: #479F9A;
+}
+
+.range input[type=range]::-webkit-slider-thumb {
+  --thumb-radius: calc((var(--thumb-height) * 0.5) - 1px);
+  --clip-top: calc((var(--thumb-height) - var(--track-height)) * 0.5 - 0.5px);
+  --clip-bottom: calc(var(--thumb-height) - var(--clip-top));
+  --clip-further: calc(100% + 1px);
+  --box-fill: calc(-100vmax - var(--thumb-width, var(--thumb-height))) 0 0 100vmax currentColor;
+  width: var(--thumb-width, var(--thumb-height));
+  background: linear-gradient(currentColor 0 0) scroll no-repeat left center/50% calc(var(--track-height) + 1px);
+  background-color: currentColor;
+  box-shadow: var(--box-fill);
+  border-radius: var(--thumb-width, var(--thumb-height));
+  filter: brightness(100%);
+  -webkit-clip-path: polygon(100% -1px, var(--clip-edges) -1px, 0 var(--clip-top), -100vmax var(--clip-top), -100vmax var(--clip-bottom), 0 var(--clip-bottom), var(--clip-edges) 100%, var(--clip-further) var(--clip-further));
+          clip-path: polygon(100% -1px, var(--clip-edges) -1px, 0 var(--clip-top), -100vmax var(--clip-top), -100vmax var(--clip-bottom), 0 var(--clip-bottom), var(--clip-edges) 100%, var(--clip-further) var(--clip-further));
+}
+
+.range input[type=range]::-webkit-slider-runnable-track {
+  background: linear-gradient(var(--track-color) 0 0) scroll no-repeat center/100% calc(var(--track-height) + 1px);
+}
+
+.cutomBtnborder {
+  border-radius: 4px;
+  display: inline-flex;
+  padding: 16px 24px;
+  align-items: flex-start;
+  gap: 8px;
+  color: #3A827E;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  border: 1px solid #3A827E;
+  background: transparent;
+}
+.cutomBtnborder:hover {
+  background: #3A827E;
+  color: #fff;
+}
+
+.cutomBtn {
+  border-radius: 4px;
+  display: inline-flex;
+  padding: 16px 24px;
+  align-items: flex-start;
+  gap: 8px;
+  color: #3A827E;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  background: transparent;
+}
+.cutomBtn:hover {
+  background: transparent;
+  color: #3A827E;
+  border: 1px solid #3A827E;
+}/*# sourceMappingURL=test2.css.map */
