@@ -44,7 +44,7 @@ a:hover {
   padding: 27px 32px !important;
 }
 .header .nav-link.active {
-  color: #3A827E;
+  color: #3A827E !important;
   font-weight: 700;
 }
 .header .searchbox {
