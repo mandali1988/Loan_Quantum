@@ -1044,6 +1044,148 @@ input[type=range]::-moz-range-progress {
   margin: 30px 0;
 }
 
+.PaymentSchedulesection {
+  margin: 20px auto;
+}
+
+.PaymentSchedule_inner {
+  box-sizing: border-box;
+  width: calc(100% - 24px) !important;
+  padding: 20px !important;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nestedtable {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.nestedtable table {
+  border: 0;
+}
+.nestedtable thead tr {
+  border-radius: 10px 0px 10px 0px;
+}
+.nestedtable thead tr th {
+  background: #CAE7E6;
+  color: #183533;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 8px 15px !important;
+}
+.nestedtable thead tr th:first-child {
+  min-width: 43px;
+  padding-left: 21px !important;
+  text-align: left;
+}
+.nestedtable thead tr th:nth-child(2) {
+  width: 150px;
+}
+.nestedtable thead tr th:nth-child(3) {
+  text-align: center;
+  width: 50px;
+}
+.nestedtable tbody {
+  background: #EDF7F7;
+}
+.nestedtable tbody tr > th {
+  background: #EDF7F7 !important;
+  border-bottom: 1px solid #818181;
+  padding: 6px 0 !important;
+}
+.nestedtable tfoot th {
+  border: 0 !important;
+  background-color: #CAE7E6 !important;
+  color: #183533;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 8px 15px !important;
+}
+.nestedtable tr td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  padding: 6px 0 !important;
+}
+.nestedtable tr.parent td {
+  color: lightblue;
+  cursor: pointer;
+}
+.nestedtable tr.child td {
+  background: #EDF7F7 !important;
+  border-bottom: 1px solid #818181 !important;
+  padding: 14px 0 !important;
+  color: #183533;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  border: 0;
+  text-align: center;
+}
+.nestedtable tr.child td:first-child {
+  min-width: 43px;
+  padding-left: 21px !important;
+  text-align: left;
+}
+.nestedtable tr.child td:nth-child(2) {
+  width: 150px;
+}
+.nestedtable tr.child td:nth-child(3) {
+  text-align: center;
+  width: 50px;
+}
+.nestedtable tr.child.hidden {
+  display: none;
+}
+.nestedtable .tglbtn {
+  border: 1px solid #3A827E;
+  background: transparent;
+  padding: 7px 16px;
+  border-radius: 4px;
+  color: #3A827E;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 16px;
+}
+.nestedtable .child table {
+  padding-bottom: 0 !important;
+  margin-bottom: 0;
+}
+.nestedtable .child .table tfoot td {
+  border-bottom: 0px !important;
+  border-top: 1px !important;
+  color: #183533;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 8px 15px !important;
+}
+.nestedtable .child .table tbody tr:last-child td {
+  border: 0px !important;
+}
+.nestedtable .child .table tfoot tr td {
+  border-top: 1px solid #818181 !important;
+}
+
+.tablbtnaction {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+}
+
 /* EMI Calculator Page Style  End Here */
 @media only screen and (min-width: 1200px) {
   .container,
@@ -1077,8 +1219,6 @@ input[type=range]::-moz-range-progress {
   .navbar-collapse ul {
     margin: 0 auto !important;
   }
-}
-@media only screen and (max-width: 1100px) {
   .CalculatorWorks img {
     position: relative !important;
     left: 0 !important;
@@ -1122,6 +1262,10 @@ input[type=range]::-moz-range-progress {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+  .tablbtnaction {
+    justify-content: flex-start;
+    margin: 30px 0 0 0;
   }
 }
 @media only screen and (max-width: 992px) {
