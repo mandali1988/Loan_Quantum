@@ -1102,6 +1102,9 @@ input[type=range]::-moz-range-progress {
   .Service ul li > div {
     width: 100% !important;
   }
+  .Service ul .serviceblock {
+    width: 100%;
+  }
   .FAQ .nav-pills {
     flex-direction: row !important;
     justify-content: center;
