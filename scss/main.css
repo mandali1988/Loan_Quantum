@@ -1484,4 +1484,8 @@ input[type=range]::-moz-range-progress {
   padding: 11px 19px !important;
   width: 100% !important;
   border-radius: 4px !important;
+}
+
+.mob_pd > div {
+  margin-bottom: 8px;
 }/*# sourceMappingURL=main.css.map */
