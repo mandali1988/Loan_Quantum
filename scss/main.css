@@ -1333,6 +1333,7 @@ input[type=range]::-moz-range-progress {
   height: 100%;
   padding: 20px 0px;
   overflow: auto;
+  flex-wrap: wrap;
 }
 .login .loginform {
   max-width: 620px;
